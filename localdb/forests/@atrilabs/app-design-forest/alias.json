@@ -1,0 +1,15 @@
+{
+  "BarChart": 1,
+  "Flex": 107,
+  "Div": 162,
+  "Input": 1,
+  "TextBox": 188,
+  "Image": 78,
+  "Link": 2,
+  "Menu": 3,
+  "Button": 9,
+  "UnorderedList": 3,
+  "Carousel": 1,
+  "Cascader": 1,
+  "Accordion": 3
+}

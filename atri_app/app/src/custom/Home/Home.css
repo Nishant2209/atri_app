@@ -1,0 +1,79 @@
+.p-Home.TextBox6 {
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-Home.Button2:hover, .Button7:hover{
+    top: 8px;
+    left: 9px;
+}
+
+.p-Home.Image14, .Image21 {
+    transition: all 150ms ease-in-out;
+    object-fit: cover;
+}
+
+.p-Home.Image14:hover, .Image21:hover{
+    scale: 1.1;
+}
+
+.p-Home.TextBox7{
+    letter-spacing: -2px;
+}
+
+.p-Home.Button3 {
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+.p-Home.ServicesHeading,.ProjectsHeading,.TextBox41,.TextBox50,.TextBox55,.TextBox78, .TextBox137, .TextBox145, .TextBox162 {
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 4px;
+}
+
+.p-Home.Button6 {
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+.p-Home.Div40, .TextBox161 {
+    letter-spacing: 1px;
+}
+
+.p-Home.Div60 {
+    margin-top: -238px;
+}
+
+.p-Home.Image55{
+    filter: saturate(0%);
+}
+
+.p-Home.TextBox162 {
+    letter-spacing: 0.5px;
+}
+
+.p-Home.TextBox162 {
+    display: inline-block;
+    position: relative;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+  }
+  
+  .p-Home.TextBox162::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 5px;
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(108deg, #b16cea 14%, #ff5e69 57%, #ff8a56 81%, #ffa84b);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .p-Home.TextBox162:hover::after {
+    transform: scaleX(2);
+    transform-origin: bottom left;
+  }
